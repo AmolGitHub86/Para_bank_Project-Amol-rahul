@@ -47,11 +47,24 @@ public class RegistationPage {
 	
 	@FindBy(id = "customer.ssn")
 	WebElement ssn;
+	
+	@FindBy(id = "customer.username")
+	WebElement username;
+	
+	@FindBy(id = "customer.password")
+	WebElement password;
+	
+	@FindBy(id = "repeatedPassword")
+	WebElement confirmPassword;
+	
+	@FindBy(xpath = "//input[@type='submit']")
+	WebElement submitButton;
 
 	
 	
 	public void Registation() {	
 		registerbutton.click();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		WebDriverWait waitdriver = new WebDriverWait(driver,Duration.ofSeconds(10));
 		waitdriver.until(ExpectedConditions.visibilityOfElementLocated(By.className("title")));
 		firstname.sendKeys("Amol");
@@ -62,6 +75,10 @@ public class RegistationPage {
 		zipcode.sendKeys("402401");
 		phonenumber.sendKeys("8698991626");
 		ssn.sendKeys("3456tfgh");	
+		username.sendKeys("amolayarkar");
+		password.sendKeys("1234567");
+		confirmPassword.sendKeys("1234567");
+		submitButton.click();
 		
 	}
 
