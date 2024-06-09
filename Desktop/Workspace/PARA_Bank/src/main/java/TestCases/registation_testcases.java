@@ -8,7 +8,7 @@ import Pages.RegistationPage;
 import utilities.BaseClass;
 
 
-public class TC_01 extends BaseClass {
+public class registation_testcases extends BaseClass {
 	
 	
 	@Test
@@ -18,6 +18,8 @@ public class TC_01 extends BaseClass {
 		//driver.close();
 		
 	}
+	
+	
 	
 
 }

@@ -75,9 +75,9 @@ public class RegistationPage {
 		zipcode.sendKeys("402401");
 		phonenumber.sendKeys("8698991626");
 		ssn.sendKeys("3456tfgh");	
-		username.sendKeys("amolayarkar");
-		password.sendKeys("1234567");
-		confirmPassword.sendKeys("1234567");
+		username.sendKeys("amolayarkar1");
+		password.sendKeys("12345678");
+		confirmPassword.sendKeys("12345678");
 		submitButton.click();
 		
 	}
