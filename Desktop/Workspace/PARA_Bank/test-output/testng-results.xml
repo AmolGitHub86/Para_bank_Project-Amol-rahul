@@ -2,15 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-09T13:19:17 IST" name="Default suite" finished-at="2024-06-09T13:19:27 IST" duration-ms="9944">
+  <suite started-at="2024-06-09T15:54:01 IST" name="Default suite" finished-at="2024-06-09T15:54:12 IST" duration-ms="11454">
     <groups>
     </groups>
-    <test started-at="2024-06-09T13:19:17 IST" name="Default test" finished-at="2024-06-09T13:19:27 IST" duration-ms="9944">
+    <test started-at="2024-06-09T15:54:01 IST" name="Default test" finished-at="2024-06-09T15:54:12 IST" duration-ms="11454">
       <class name="TestCases.TC_01">
-        <test-method signature="registation_int()[pri:0, instance:TestCases.TC_01@351d00c0]" started-at="2024-06-09T13:19:17 IST" name="registation_int" finished-at="2024-06-09T13:19:27 IST" duration-ms="9906" status="PASS">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:TestCases.TC_01@4fb3ee4e]" started-at="2024-06-09T15:54:01 IST" name="LaunchApplication" finished-at="2024-06-09T15:54:09 IST" duration-ms="8342" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registation_int -->
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="registation()[pri:0, instance:TestCases.TC_01@4fb3ee4e]" started-at="2024-06-09T15:54:09 IST" name="registation" finished-at="2024-06-09T15:54:12 IST" duration-ms="3061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registation -->
       </class> <!-- TestCases.TC_01 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

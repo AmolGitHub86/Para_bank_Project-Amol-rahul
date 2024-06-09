@@ -50,20 +50,10 @@ public class RegistationPage {
 
 	
 	
-	public void Registation() {
-		//driver.findElement(By.linkText("Register")).click();	
+	public void Registation() {	
 		registerbutton.click();
 		WebDriverWait waitdriver = new WebDriverWait(driver,Duration.ofSeconds(10));
 		waitdriver.until(ExpectedConditions.visibilityOfElementLocated(By.className("title")));
-//		driver.findElement(By.id("customer.firstName")).sendKeys("Amol");
-//		driver.findElement(By.id("customer.lastName")).sendKeys("Ayarkar");
-//		driver.findElement(By.id("customer.address.street")).sendKeys("Nanvi mumbai");
-//		driver.findElement(By.id("customer.address.city")).sendKeys("mumbai");
-//		driver.findElement(By.id("customer.address.state")).sendKeys("maharashtra");
-//		driver.findElement(By.id("customer.address.zipCode")).sendKeys("402401");
-//		driver.findElement(By.id("customer.phoneNumber")).sendKeys("8698991626");
-//		driver.findElement(By.id("customer.ssn")).sendKeys("3456tfgh");
-		
 		firstname.sendKeys("Amol");
 		lastname.sendKeys("Ayarkar");
 		address.sendKeys("Nanvi mumbai");
@@ -71,10 +61,7 @@ public class RegistationPage {
 		state.sendKeys("maharashtra");
 		zipcode.sendKeys("402401");
 		phonenumber.sendKeys("8698991626");
-		ssn.sendKeys("3456tfgh");
-		
-		
-		
+		ssn.sendKeys("3456tfgh");	
 		
 	}
 
